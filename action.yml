@@ -1,0 +1,7 @@
+name: 'SemVer Autotag'
+description: 'Tags the project (if untagged) generating a valid (and reasonable) Semantic Versioning 2.0 version -- if all tags are valid semantic versions themselves.'
+runs:
+  using: "composite"
+  steps: 
+    - run: ./entrypoint.sh
+      shell: bash

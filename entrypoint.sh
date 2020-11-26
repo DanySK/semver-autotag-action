@@ -1,4 +1,4 @@
-#/bin/bash
+#/bin/sh
 set -e
 COMMITTER=${COMMITER:-$(git log -1 --pretty=format:'%an')}
 EMAIL=${EMAIL:-$(git log -1 --pretty=format:'%ae')}
@@ -8,4 +8,7 @@ fi
 if [ -z $(git config user.name) ]; then
     git config --global user.name "${COMMITTER}"
 fi
-autotag
+curl -sL https://github.com/DanySK/Gravis-CI/raw/master/autotag >> autotag
+chmod +x autotag
+./autotag
+rm autotag
