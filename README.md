@@ -1,4 +1,4 @@
-# Semantic Versioning Auotomatic Tag Action
+# Semantic Versioning Automatic Tag Action
 
 A GitHub Action that generates a SemVer 2.0 compatible tag on untagged repository commits. Requires a complete checkout.
 This action replicates on GitHub Actions the behavior of the automatic tagging system of [Gravis-CI](https://github.com/DanySK/Gravis-CI/)
