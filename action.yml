@@ -17,3 +17,6 @@ runs:
         ./autotag
         rm autotag
       shell: bash
+branding:
+  icon: tag
+  color: blue
