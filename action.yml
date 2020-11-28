@@ -1,5 +1,5 @@
 name: 'SemVer Autotag'
-description: 'Tags the project (if untagged) generating a valid (and reasonable) Semantic Versioning 2.0 version -- if all tags are valid semantic versions themselves.'
+description: 'Tags the project (if untagged) generating a valid (and reasonable) Semantic Versioning 2.0 version'
 runs:
   using: "composite"
   steps: 
